@@ -1,0 +1,63 @@
+.box2{
+    width: 60%;
+    height: 60%;
+}
+.body{
+    font-size: xx-large;
+}
+.box4{
+    
+    color: black;
+    padding: 200px;
+    background-repeat: no-repeat;
+    aspect-ratio: 9%;
+    background-image: url(https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+}
+.nav2{
+    background-color: black;
+    color: antiquewhite;
+    padding: 16px;
+}
+.button1{
+    color: palevioletred;
+    padding: 13px;
+    
+}
+.item2{
+display: flex;
+}
+.div3{
+    display: flex;
+    padding: 50px;
+    gap: 8%;
+}
+.image1{
+    width: 100%;
+}
+.div5{
+    display: flex;
+    gap: 4%;
+}
+.div6{
+    color: white;
+    padding: 35px;
+    margin-left: 40%;
+    background-image: url(https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNob2VzfGVufDB8fDB8fHww);
+}
+.button2{
+text-align: center;
+padding: 29px;
+background-color: pink;
+}
+.div8{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 20%;
+    width: 160%;
+    padding: 80px;
+}
+
+
+
+
