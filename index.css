@@ -6,50 +6,63 @@
     font-size: xx-large;
 }
 .box4{
-    
+    justify-content: center;
     color: black;
-    padding: 200px;
+    padding: 400px;
     background-repeat: no-repeat;
-    aspect-ratio: 9%;
+    aspect-ratio: 19%;
     background-image: url(https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 }
+
 .nav2{
+    justify-content: center;
     background-color: black;
     color: antiquewhite;
     padding: 16px;
 }
 .button1{
-    color: palevioletred;
+    justify-content: center;
+    background-color: rgb(194, 247, 181);
+    color: rgb(211, 51, 105);
     padding: 13px;
     
 }
 .item2{
+    justify-content: center;
 display: flex;
 }
 .div3{
+    justify-content: center;
     display: flex;
     padding: 50px;
     gap: 8%;
 }
 .image1{
+    justify-content: center;
     width: 100%;
 }
 .div5{
+    justify-content: center;
     display: flex;
     gap: 4%;
 }
 .div6{
+    justify-content: center;
     color: white;
     padding: 35px;
-    margin-left: 40%;
+    width: 90%;
+    height: 59;
     background-image: url(https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNob2VzfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
 }
 .button2{
+justify-content: center;
 text-align: center;
 padding: 29px;
 background-color: pink;
 }
 .div8{
+    justify-content: center;
     display: flex;
     background-color: black;
     color: white;
@@ -57,8 +70,21 @@ background-color: pink;
     width: 160%;
     padding: 80px;
 }
-.container{
+#container{
+    justify-content: center;
 
+}
+.text{
+    height: 13%;
+    width: 20%;
+    font-size: xx-small;
+    background-color: darksalmon;
+    color: black;
+}
+    @media screen and (min-width:250px) and (max-width: 950px) {
+        .menu, .main, .right{
+            width: 80%
+        }
 }
 
 

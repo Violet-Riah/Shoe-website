@@ -1,0 +1,69 @@
+.nav2{
+    background-color: rgb(228, 209, 203);
+    flex-direction: column;
+    font-size: xx-large;
+    font-style: inherit;
+    border: solid;
+    text-align: center;
+    
+}
+
+/* .nav{
+    
+    background-color: rgb(190, 240, 223);
+    border: solid;
+    gap: 50%;
+    size: 67%;
+    font-size: xx-large;
+    color: white;
+} */
+.box1{
+    display: flex;
+    text-align: center;
+    
+}
+.box2{
+    display: flex;
+    
+}
+.box3{
+    display: flex;
+    /* gap: 9%; */
+}
+.text3{
+    font-size: xx-large;
+    font-style: oblique;
+    color: black;
+}
+.text2{
+    font-size: larger;
+    color: black;
+    
+}
+.box7{
+    display: flex;
+    text-align: center;
+    /* display: grid;
+    grid-template-columns: repeat();O*/
+} 
+.nav3{
+    display: flex;
+    text-align: center;
+
+}
+.words{
+    display: flex;
+    gap: 25%;
+    background-color: aqua;
+}
+.boxes{
+    display: flex;
+}
+.book{
+    display: flex;
+}
+.button{
+    background-color: coral;
+    color: black;
+    font-size: x-large;
+}
