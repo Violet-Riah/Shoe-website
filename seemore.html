@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="seemore.css">
+</head>
+<body>
+    <p><button onclick="myMove()" id="different">Explore different places while embracing your fashion</button> </p>
+  <div id="container">
+<div id="animate">
+    <img src="images/air-jordan-.jpg" width="40%">
+    <img src="images/beach.jpg">
+</div>
+</div>  
+
+    <script>
+        function myMove(){
+            let id = null;
+            const elem = document.getElementById("animate");
+            let pos = 0;
+            clearInterval(frame, 5);
+            id = setInterval(frame, 5);
+            function frame(){
+                if (pos == 350){
+                    clearInterval(id);
+                } else{
+                    pos++;
+                    elem.style.top = pos + "px";
+                    elem.style.left = pos + "px";
+                    elem.style.right = pos + "px";
+                }
+
+            }
+        }
+    </script>
+
+<div>
+    <button id="new"><a href="websit.html">Explore New Places</a></button>
+</div>
+
+</body>
+</html>
